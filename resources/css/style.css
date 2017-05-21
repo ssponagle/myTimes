@@ -1,4 +1,4 @@
-.header {
+header {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -8,7 +8,7 @@
   font-weight: bold;
 }
 
-.header li {
+header li {
   list-style: none;
   display: inline-block;
   text-align: right;
@@ -16,12 +16,12 @@
   width: 100%;
 }
 
-.header h1 {
+header h1 {
   width: 180px;
   color: aquamarine;
   font-size: inherit;
 }
 
-.header a {
+header a {
   color: black;
 }
