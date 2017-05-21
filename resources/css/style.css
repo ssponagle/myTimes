@@ -1,13 +1,23 @@
+/*Header section*/
+
 .header {
   display: flex;
+  align-items: center;
   margin: 0 auto;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .header li {
   list-style: none;
   display: inline-block;
+  text-align: right;
+  width: 100%;
 }
 
 .header h1 {
-  color: red;
+  width: 100%;
+  color: aquamarine;
+  font-size: inherit;
 }
