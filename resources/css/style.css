@@ -14,11 +14,9 @@ header li {
   display: inline-block;
   text-align: right;
   padding: 10px;
-  width: 100%;
 }
 
-header h1 {
-  width: 180px;
+.logo span {
   color: aquamarine;
   font-size: inherit;
 }
