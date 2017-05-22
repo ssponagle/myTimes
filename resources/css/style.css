@@ -1,15 +1,17 @@
+/*Header*/
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   z-index: 10;
+  width: 100%;
   margin: 0 auto;
   padding: 5px 0;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 header li {
@@ -33,4 +35,34 @@ header li {
 
 header a {
   color: black;
+}
+/*Main section*/
+main {
+  border: 5px solid black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+main p {
+  border: 1px solid black;
+}
+
+.column {
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
 }
